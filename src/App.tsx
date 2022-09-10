@@ -1,8 +1,9 @@
 import './styles.css';
+import TourCard from './components/TourCard';
 
 const App = () => {
   // const name = "Todor";
-  return <h1>React Typescript Webpack Starter Template</h1>;
+  return <TourCard />;
 };
 
 export default App;
